@@ -1,0 +1,80 @@
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', arial;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-container {
+    background: #e0b12f;
+}
+
+.nav-container a{
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+
+    .logo {
+        color: #3A86FF;
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+
+}
+
+.social-header, .hero-design {
+    display: none;
+}
+
+.hero {
+    background: #FB5607;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+}
+
+.meet {
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    font-weight: bold;
+    color: #FF006E;
+}
+
+span {
+    margin-top: 1em;
+    margin-right: .5em;
+}
+
+.scroll {
+    width: 30px;
+    margin-top: 2em;
+}
